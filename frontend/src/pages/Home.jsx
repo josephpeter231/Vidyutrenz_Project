@@ -1,7 +1,7 @@
 import Navbar from '/src/components/Navbar';
 import Home1 from '../components/Home';
 import "./home.css";
-import cd from '../assets/cd.jpg';
+
 
 
 const Home = () => {

@@ -2,7 +2,7 @@
     height: 420px;
     width: auto;
     /* background-color: rgba(212, 205, 205, 0.82);  */
-    backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+    backdrop-filter: blur(10px); 
   }
   .input{
     
@@ -16,10 +16,9 @@
     border-bottom: 2px solid #f5f1f1;
 }
 .custom-input::placeholder {
-    color: rgb(105, 205, 208); /* Change to your desired color */
+    color: rgb(105, 205, 208); 
   }
   
   .custom-input {
-    background: transparent; /* Set the background to transparent */
-    /* Add any other styling you want for the input box */
+    background: transparent; 
 }

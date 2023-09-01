@@ -17,9 +17,7 @@ const Home1 = () => {
     //   style={{WebkitBackdropFilter: 'blur(5px)', // Apply the blur effect using -webkit-backdrop-filter
     // backdropFilter: 'blur(5px)'}}
       >
-
-        <div className='flex flex-col items-center w-full h-screen pt-24'>
-         
+        <div className='flex flex-col items-center w-full h-screen pt-24'>  
          <div className="mt-24 rounded-lg justify-center p-3" style={{WebkitBackdropFilter: 'blur(3px)', // Apply the blur effect using -webkit-backdrop-filter
     backdropFilter: 'blur(3px)'}} >           
              <h1 className="text-center text-2xl md:text-5xl " >VIDYUTRENZ</h1>

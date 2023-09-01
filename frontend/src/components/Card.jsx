@@ -1,10 +1,9 @@
 import { useState } from "react";
-import cd from "../assets/cit.png";
+//import cd from "../assets/cit.png";
+import { useNavigate } from "react-router-dom";
 
-
-const Card = ({ Tech }) => {
-  
-
+const Card = ({ Event }) => {
+  const router = useNavigate();
   const [hovered, setHovered] = useState(false);
 
   const handleHover = () => {
@@ -14,8 +13,6 @@ const Card = ({ Tech }) => {
   const handleMouseLeave = () => {
     setHovered(false);
   };
-
-
 
   const cardStyle = {
     position: "relative",
@@ -28,7 +25,7 @@ const Card = ({ Tech }) => {
 
   const imageStyle = {
     width: "100%",
-    filter: hovered ? "blur(5px)" : "none",
+    filter: hovered ? "blur(25px)" : "none",
     transition: "filter 0.3s",
   };
 
@@ -46,7 +43,6 @@ const Card = ({ Tech }) => {
     color: "black",
     textAlign: "center",
     marginTop: "230px",
-    
   };
 
   return (
@@ -56,10 +52,17 @@ const Card = ({ Tech }) => {
       onMouseLeave={handleMouseLeave}
     >
       <div style={{ position: "relative" }}>
-        <img style={imageStyle} src={cd} alt="Description of the Image" />
+        <img
+          style={imageStyle}
+          src={Event.imgUrl}
+          alt="Description of the Image"
+        />
         <div style={overlayStyle}>
-          <h1 className="mt-[48] font-bold backdrop-blur-lg w-full" style={overlayTextStyle}>
-            {Tech.name}
+          <h1
+            className="mt-[48] font-bold backdrop-blur-lg w-full text-[24px"
+            style={overlayTextStyle}
+          >
+            {Event.name}
           </h1>
         </div>
       </div>
@@ -70,18 +73,26 @@ const Card = ({ Tech }) => {
             position: "absolute",
             inset: 0,
             display: "flex",
-            flexDirection:"column",
-            gap:"0.5rem",
+            flexDirection: "column",
+            gap: "0.5rem",
             alignItems: "center",
             justifyContent: "center",
             backgroundColor: "rgba(0, 0, 0, 0.1)",
           }}
         >
-          <h1 className="font-semibold">{Tech.name}</h1>
-          <p className="font-semibold p-2 font-serif tracking-wide"style={{ color: "white", textAlign: "center", fontSize:"10px" }}>
-            {Tech.description}
+          <h1 className="font-semibold">{Event.name}</h1>
+          <p
+            className="font-semibold p-2 font-serif tracking-wide text-slate-200"
+            style={{ textAlign: "center", fontSize: "10px" }}
+          >
+            {Event.description}
           </p>
-          <button type="submit" className="p-3 text-xs border rounded-xl" ><a href="https://search.yahoo.com/search?fr=mcafee&type=E210US885G0&p=chat+gpt">Explore</a></button>
+          <button
+            onClick={() => router(`/events/${Event.id}`)}
+            className="p-3 text-xs border rounded-xl"
+          >
+            Explore
+          </button>
         </div>
       </div>
     </div>
