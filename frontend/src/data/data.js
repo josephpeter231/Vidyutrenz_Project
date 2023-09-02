@@ -190,7 +190,6 @@
       description:
         "Discover the world of Very Large Scale Integration (VLSI) technology in this workshop. Dive into the design and development of microchips and integrated circuits.",
         preReq: ["NotePad, Laptop"],
-        tag: "workshop",
       imgUrl:
         "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
         tag: "workshop",

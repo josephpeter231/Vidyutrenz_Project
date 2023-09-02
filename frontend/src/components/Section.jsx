@@ -10,14 +10,14 @@ const Section = () => {
   return (
 
     
-      <section className='flex flex-col md:flex-row border rounded-3xl m-10 mt-12'style={{
+      <section className='flex flex-col md:flex-row border rounded-3xl m-10 mt-12 'style={{
         WebkitBackdropFilter: 'blur(3px)',
         backdropFilter: 'blur(10px)',
         backgroundColor:''
       }}>
         <div className='text-center md:text-left md:w-1/2'>
-          <h1 className="  text-2xl font-bold p-6 pb-0 mb-4 md:p-12">Heading</h1>
-          <p className="text-white p-6 pt-0 md:p-12 text-xs font-serif">s
+          <h1 className="  text-2xl font-bold p-6 pb-0  md:p-12">Heading</h1>
+          <p className="text-white p-6 pt-0 md:p-12 md:text-2xl text-xs font-serif">s
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias
             perferendis cumque, quas nulla sint quam repellendus consequatur
             reiciendis illum laboriosam quos incidunt nobis modi voluptatum

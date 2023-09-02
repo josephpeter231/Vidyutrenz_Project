@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bottom-0 justify-center flex flex-col bg-transparent text-white text-center md:flex-row md:space-x-96 " style={{WebkitBackdropFilter: 'blur(3px)', // Apply the blur effect using -webkit-backdrop-filter
     backdropFilter: 'blur(3px)'}}>
      
-            <div className=" md:flex  flex items-center justify-center space-x-10 text-base md:text-xl">
+            <div className="mb-2 md:flex  flex items-center justify-center space-x-6  text-base md:text-xl">
                 <a  href="https://www.facebook.com/" >
                 <FaYoutube />
                 </a>
@@ -19,7 +19,7 @@ const Footer = () => {
                 <FaLinkedinIn />
                 </a>
             </div>
-            <div className='flex md:justify-center mx-10 text-xs md:text-xs'>
+            <div className='mb-2 flex md:justify-center mx-10 text-xs md:text-xs'>
                     <p className='mx-10'>&copy; Copyright 2023</p>
             </div>
             <div className="md: text-xs">

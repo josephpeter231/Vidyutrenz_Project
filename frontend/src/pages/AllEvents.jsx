@@ -1,6 +1,7 @@
 
 import Card from "../components/Card";
-import { Events } from "../data/data.js";
+// import { Events } from "../data/data.js";
+import {Events} from "../data/data.js"
 
 const AllEvents = () => {
   return (

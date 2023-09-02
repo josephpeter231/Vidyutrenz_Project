@@ -25,14 +25,17 @@ const Home1 = () => {
                 National Level Technical Symposiyum from the Department of Electronics and Communication Engineering
             </p>
         </div> 
-         <div className="mt-[250px] md:mt-[370px]">
+         <div className="mt-[220px] md:mt-[370px]">
             <Footer/>
         </div>
             <Section/>
             <Memories/>
             <CardWithVideo/>
             <ContactUS/>
+            <div className="mt-[220px] md:mt-[370px]" >
             <Footer/> 
+            </div>
+            
         </div>
         
 
