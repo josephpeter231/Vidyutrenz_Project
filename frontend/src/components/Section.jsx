@@ -1,21 +1,7 @@
-import React from 'react';
+
 import white_logo_pngg from '../assets/white_logo_pngg.png';
 
 
-const buttonStyle = {
-  border: 'none',
-  background: '#fff',
-  borderRadius: '5px',
-  marginTop: '20px',
-  fontWeight: '600',
-  fontSize: '15px',
-  color: '#333',
-  width: '100px',
-  padding: '0',
-  marginRight: '500px',
-  marginBottom: '30px',
-  transition: '0.3s',
-};
 
 
 

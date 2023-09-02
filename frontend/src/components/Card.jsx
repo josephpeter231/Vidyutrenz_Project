@@ -1,8 +1,9 @@
 import { useState } from "react";
-import cd from "../assets/cit.png";
+//import cd from "../assets/cit.png";
 import { useNavigate } from "react-router-dom";
 
-const Card = ({ Event }) => {
+
+const Card = (Event) => {
   const router = useNavigate();
   const [hovered, setHovered] = useState(false);
 
