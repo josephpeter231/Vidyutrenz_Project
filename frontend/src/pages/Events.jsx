@@ -1,7 +1,7 @@
-import React from 'react'
+
 import Navbar from '../components/Navbar'
-import TechEvents from '../components/TechEvents'
-import NonTech from '../components/NonTech'
+// import TechEvents from '../components/TechEvents'
+// import NonTech from '../components/NonTech'
 import AllEvents from '../components/TechEvents'
 
 const Events = () => {
