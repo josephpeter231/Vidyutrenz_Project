@@ -53,7 +53,7 @@ const AllEvents = () => {
       judgingCriteria:
         "Teams find the defect in a short span of time will be given maximum marks and teams completing further will be given some minimum marks. At the end, teams having the maximum score will be considered as winners.",
       imgUrl:
-        "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
+        "https://res.clouinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
     },
     {
       id: 4,
